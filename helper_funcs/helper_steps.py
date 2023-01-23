@@ -58,11 +58,6 @@ def parse_to_meaning_ful_text(input_phone_number, in_dict):
         in_dict["Available MTProto Servers"]["test_configuration"]["IP"],
         in_dict["Available MTProto Servers"]["test_configuration"]["DC"]
     )
-    me_t += "\n"
-    me_t += "\n"
-    me_t += "<i>Disclaimer</i>: "
-    me_t += "<u>{}</u>".format(
-        in_dict["Disclaimer"]
     )
     return me_t
 
