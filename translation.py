@@ -1,25 +1,9 @@
 class Translation(object):
-    START_TEXT = """
-Hai Saya Bot My.telegram.org Sederhana.
-
-Membantu Anda Untuk Mendapatkan API ID & API HASH Masukkan Nomor Telepon Telegram Anda Dengan Kode Negara.
-
-Join To 
-Group Update: @NothingSupportBot
-Group Anime: @AniLoversIndo
-Channel Support: @ItsMeKaze91
-
-
-Klik /start Untuk Memulai Bot nya"""
-    AFTER_RECVD_CODE_TEXT = """
-Sekarang silakan kirim kode Telegram yang Anda terima dari Telegram!
-
-kode ini hanya digunakan untuk tujuan mendapatkan ID APP dari my.telegram.org
-\njika Anda tidak mempercayai pengembang bot ini, harap kunjungan web terpercaya telegram my.telegram.org
-
-Klik /start Untuk Memulai Ulang Botnya"""
-    BEFORE_SUCC_LOGIN = "Kode Diterima. Scarpping Web Page..."
-    ERRED_PAGE = "Gagal Mendapatkan Api Id\nSilakan Hubungi Kami Di @KenalSayaaa"
-    CANCELLED_MESG = "Bye! Silahkan /start kembali untuk mengulang Bot"
-    IN_VALID_CODE_PVDED = "Kode OTP yang anda Masukan SALAH!! Harap Masukan Kode OTP dengan benar!!!"
-    IN_VALID_PHNO_PVDED = "No HP yang anda masukan SALAH, Silahkan Masukkan Nomor Telepon Telegram Anda Dengan Format Kode Negara.\nContoh: +628xxxxxxx"
+    START_TEXT = """Hi I'm A Simple My.telegram.org Bot.
+\n\n
+Help You To Get API ID \n\n /start the bot again to Scrap your app id and hash"""
+    BEFORE_SUCC_LOGIN = "Please wait \n We are Scrapping for you"
+    ERRED_PAGE = "Failed To Get Api Id\nPlease get it manually from my.telegram.org login by phone number there > Enter otp received in telegram app> choose Api Development tool > copy app id and ApI hash>done"
+    CANCELLED_MESG = "bye! Please /start again to restart the Bot "
+    IN_VALID_CODE_PVDED = "The OTP code you entered is WRONG!! Please Enter the OTP Code correctly!!! "
+    IN_VALID_PHNO_PVDED = "The cellphone number you entered is WRONG, please enter your Telegram telephone number in the country code format.\nExample: +1628xxxxxxx" "
